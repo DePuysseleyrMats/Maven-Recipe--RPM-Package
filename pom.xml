@@ -41,6 +41,15 @@
 						<mapping>
 							<directory>${app.home}/logs</directory>
 						</mapping>
+						<mapping>
+							<directory>${app.home}/test/</directory>
+							<sources>
+								<source>
+									<location>./test/test.txt</location>
+									<destination>test.txt</destination>
+								</source>
+							</sources>
+						</mapping>
 					</mappings>
 				</configuration>
 			</plugin>
